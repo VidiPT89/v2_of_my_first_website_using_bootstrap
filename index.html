@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Site EP com BootStrap</title>
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- Fancybox, as fotos em caixa-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+        <!-- O meu CSS -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="topo"></div>
+        <!-- Onde a seta do fim leva -->
+        <header class="container">
+            <div class="row h-100">
+                <div
+                    class="col-2 d-flex justify-content-center logo align-items-center logo"
+                >
+                    <img src="images/estorilpraia.png" alt="EPlogo" />
+                </div>
+                <div
+                    class="col bg-banner d-flex justify-content-center align-items-center"
+                >
+                    <h4
+                        class="bg-white px-3 py-2 rounded-3"
+                        style="--bs-bg-opacity: 0.75"
+                    >
+                        Estoril Praia
+                    </h4>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"
+                    >Estoril Praia
+                    <img src="images/estorilpraia.png" alt="EPlogo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#galeria">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#produtos"
+                                    >Produtos</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#estadio">Estádio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactos"
+                                    >Contactos</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container">
+            <div class="row">
+                <div class="col p-0">
+                    <img src="images/EPgolo21.JPG" alt="" class="w-100" />
+                </div>
+            </div>
+        </section>
+        <main>
+            <section id="sobre" class="container py-2">
+                <div class="rows">
+                    <div class="row py-2">
+                        <h4>Sobre</h4>
+                    </div>
+                </div>
+                <div class="row py-4 align-items-center">
+                    <div class="col-12 col-md-8 order-2 order-md-1">
+                        <img src="images/EPfirstteam.jpg" alt="" />
+                    </div>
+                    <div class="col">
+                        <p>
+                            Fundado em 17 de Maio de 1939, começou por se chamar
+                            Grupo Desportivo Estoril Plage. Nasceu da Sociedade
+                            Estoril-Plage, que tinha como principal dinamizador
+                            Fausto Cardoso de Figueiredo, e era proprietária do
+                            caminho de ferro Lisboa - Cascais, dos hotéis
+                            Inglaterra, Paris e Palácio, do edifício das termas
+                            e do Casino Estoril. Adaptou como o seu emblema e as
+                            suas cores as maiores riquezas que a região possui,
+                            o amarelo do sol e o azul do mar. Esta escolha
+                            espelha bem o quanto o clube está ligado a sua
+                            região, que nessa época era a melhor estância
+                            balnear do país. O seu uniforme, amarelo e azul, fez
+                            com que a equipa ganhasse a alcunha de "Canarinhos",
+                            uma homenagem à seleção brasileira. Disputou vários
+                            campeonatos da 1.ª divisão e da Primeira Liga. O ano
+                            da sua fundação (1939) era de perspectivas difíceis,
+                            a II Guerra Mundial começaria a 1 de Setembro, mas
+                            não faltavam esperanças em certos sectores da vida
+                            portuguesa. Rapidamente o novo clube superou a
+                            fasquia dos 2 500 sócios. Os fundadores e primeiros
+                            dirigentes foram, entre muitos outros, Dr. Joaquim
+                            Cardim, José Peña Solleiro, José Ereira, João
+                            Rebelo, Armando Vilar, Ernesto Tomás e Joaquim
+                            Nunes.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="team" class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4>Team</h4>
+                    </div>
+                </div>
+                <div class="row py-4 align-items-center">
+                    <div class="col-12 col-md-8 order-2 order-md-1">
+                        <p>
+                            O Estoril-Praia alcançou em 1944 o seu maior feito
+                            histórico ao chegar à final da Taça de Portugal,
+                            embora tenha perdido por 8–0 frente ao Benfica, o
+                            resultado mais desnivelado de sempre numa final. Na
+                            época seguinte estreou-se na 1.ª Divisão, onde
+                            obteve vitórias marcantes, como o 8–1 ao FC Porto e
+                            a maior goleada do campeonato em 1949/50 (10–0 ao
+                            Lusitano VRSA). Entre os anos 40 e 50 alternou
+                            subidas e descidas, até ser relegado em 1952/53,
+                            iniciando um período de 23 anos fora da 1.ª Liga.
+                            Regressou em 1975/76 e manteve-se cinco épocas,
+                            voltou em 1981 e novamente em 1991, sempre com
+                            presenças de curta duração até voltar a descer.
+                            Entre o final dos anos 90 e início dos 2000, chegou
+                            mesmo à II Divisão B. Em 2002/03 subiu à Liga de
+                            Honra e em 2003/04 voltou à 1.ª Liga como campeão.
+                            Apesar de uma goleada histórica em 2004/05, voltou a
+                            descer e enfrentou uma grave crise financeira em
+                            2005/06 que quase levou ao fim da equipa
+                            profissional. Após recuperar, realizou boas
+                            campanhas na II Liga (entre 2006 e 2010), venceu a
+                            Liga Intercalar (2009/10) e a Liga Centenária frente
+                            ao Benfica (2010/11). Em 2011/12, com Marco Silva
+                            como treinador, o Estoril tornou-se campeão da II
+                            Liga. No ano seguinte, 2012/13, terminou em 5.º
+                            lugar na 1.ª Liga e qualificou-se para a Liga
+                            Europa. Em 2013/14, apesar de um dos orçamentos mais
+                            baixos, alcançou a melhor classificação de sempre:
+                            4.º lugar, garantindo nova presença na Liga Europa.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 order-1 order-md-2">
+                        <img src="images/EP19.jpg" alt="" class="img-fluid" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="galeria" class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4>Galeria</h4>
+                    </div>
+                </div>
+                <div
+                    class="row imagem row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-6"
+                >
+                    <div class="col">
+                        <a href="images/EPgolo.jpg" target="_blank">
+                            <div>
+                                <a
+                                    data-fancybox="galeria"
+                                    href="images/EP15.JPG"
+                                >
+                                    <img
+                                        src="images/EP15.JPG"
+                                        class="img-fluid"
+                                        style="max-width: 250px"
+                                    />
+                                </a>
+
+                                <h5>EP Foto 1</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="images/EPgolo.jpg" target="_blank">
+                            <div>
+                                <a
+                                    data-fancybox="galeria"
+                                    href="images/EP14.jpg"
+                                >
+                                    <img
+                                        src="images/EP14.jpg"
+                                        class="img-fluid"
+                                        style="max-width: 250px"
+                                    />
+                                </a>
+                                <h5>EP Foto 2</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="images/EPgolo.jpg" target="_blank">
+                            <div>
+                                <a
+                                    data-fancybox="galeria"
+                                    href="images/EP3.jpg"
+                                >
+                                    <img
+                                        src="images/EP3.jpg"
+                                        class="img-fluid"
+                                        style="max-width: 250px"
+                                    />
+                                </a>
+                                <h5>EP Foto 3</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="images/EPgolo.jpg" target="_blank">
+                            <div>
+                                <a
+                                    data-fancybox="galeria"
+                                    href="images/EP4.jpg"
+                                >
+                                    <img
+                                        src="images/EP4.jpg"
+                                        class="img-fluid"
+                                        style="max-width: 250px"
+                                    />
+                                </a>
+                                <h5>EP Foto 4</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="images/EPgolo.jpg" target="_blank">
+                            <div>
+                                <a
+                                    data-fancybox="galeria"
+                                    href="images/EP5.jpg"
+                                >
+                                    <img
+                                        src="images/EP5.jpg"
+                                        class="img-fluid"
+                                        style="max-width: 250px"
+                                    />
+                                </a>
+                                <h5>EP Foto 5</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="images/EPgolo.jpg" target="_blank">
+                            <div>
+                                <a
+                                    data-fancybox="galeria"
+                                    href="images/EP6.jpg"
+                                >
+                                    <img
+                                        src="images/EP6.jpg"
+                                        class="img-fluid"
+                                        style="max-width: 250px"
+                                    />
+                                </a>
+                                <h5>EP Foto 6</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="images/EP7.jpg"
+                            target="_blank"
+                            data-fancybox="EstorilPraia"
+                        >
+                            <div>
+                                <img
+                                    src="images/EP7.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                                <h5>EP Foto 7</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="images/EP13.jpg"
+                            target="_blank"
+                            data-fancybox="EstorilPraia"
+                        >
+                            <div>
+                                <img
+                                    src="images/EP13.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                                <h5>EP Foto 8</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="images/EP9.jpg"
+                            target="_blank"
+                            data-fancybox="EstorilPraia"
+                        >
+                            <div>
+                                <img
+                                    src="images/EP9.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                                <h5>EP Foto 9</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="images/EP10.jpg"
+                            target="_blank"
+                            data-fancybox="EstorilPraia"
+                        >
+                            <div>
+                                <img
+                                    src="images/EP10.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                                <h5>EP Foto 10</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="images/EP11.jpg"
+                            target="_blank"
+                            data-fancybox="EstorilPraia"
+                        >
+                            <div>
+                                <img
+                                    src="images/EP11.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                                <h5>EP Foto 11</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="images/EP12.jpg"
+                            target="_blank"
+                            data-fancybox="EstorilPraia"
+                        >
+                            <div>
+                                <img
+                                    src="images/EP12.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                                <h5>EP Foto 12</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="3"
+                            aria-label="Slide 4"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="4"
+                            aria-label="Slide 5"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="5"
+                            aria-label="Slide 6"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                                src="images/EP19.jpg"
+                                class="d-block w-100"
+                                alt=""
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Plantel Estoril Praia.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/EP18.jpg"
+                                class="d-block w-100"
+                                alt=""
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>
+                                    Crianças adeptas do Estoril Praia, a apoiar
+                                    a sua equipa.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/EP17.JPG"
+                                class="d-block w-100"
+                                alt=""
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>
+                                    Golo do Erison, jogador do Estoril Praia,
+                                    frente ao Gil Vicente.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/EP16.JPG"
+                                class="d-block w-100"
+                                alt=""
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Equipa do Estoril Praia festeja o golo.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/EP15.JPG"
+                                class="d-block w-100"
+                                alt=""
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>
+                                    Golo do Alejandro Marqués, jogador do
+                                    Estoril Praia, frente ao Gil Vicente.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/EP8.jpg"
+                                class="d-block w-100"
+                                alt=""
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>
+                                    Adeptos do Esotirl Praia a apoiarem a sua
+                                    equipa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="produtos" class="container py-3">
+                <div class="row mb-4">
+                    <div class="col">
+                        <h4>Produtos</h4>
+                    </div>
+                </div>
+                <div class="row row-cols-2 row-cols-lg-6">
+                    <!-- Produto 1 -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <img
+                                src="images/chuteiras.jpg"
+                                class="card-img-top"
+                                alt="Chuteiras"
+                            />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Chuteiras</h5>
+                                <p
+                                    class="card-text flex-grow-1"
+                                    style="text-align: left"
+                                >
+                                    Chuteiras da marca Adidas, versão COPA
+                                    Mundial.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto"
+                                    >Comprar</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto 2 -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <img
+                                src="images/lucasgr.jpg"
+                                class="card-img-top"
+                                alt="Luvas"
+                            />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Luvas</h5>
+                                <p
+                                    class="card-text flex-grow-1"
+                                    style="text-align: left"
+                                >
+                                    Luvas de guarda-redes da marca Adidas.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto"
+                                    >Comprar</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto 3 -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <img
+                                src="images/caneleiras.jpg"
+                                class="card-img-top"
+                                alt="Caneleiras"
+                            />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Caneleiras</h5>
+                                <p
+                                    class="card-text flex-grow-1"
+                                    style="text-align: left"
+                                >
+                                    Caneleiras da marca Adidas.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto"
+                                    >Comprar</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto 4 -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <img
+                                src="images/bola.jpg"
+                                class="card-img-top"
+                                alt="Bola"
+                            />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Bola</h5>
+                                <p
+                                    class="card-text flex-grow-1"
+                                    style="text-align: left"
+                                >
+                                    Bola de futebol da Liga de Portugal
+                                    2025/2026.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto"
+                                    >Comprar</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto 5 -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <img
+                                src="images/camisolatermica.jpg"
+                                class="card-img-top"
+                                alt="Camisola"
+                            />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Camisolas</h5>
+                                <p
+                                    class="card-text flex-grow-1"
+                                    style="text-align: left"
+                                >
+                                    Camisolas termicas de futebol.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto"
+                                    >Comprar</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto 6 -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <img
+                                src="images/calcastermicas.jpg"
+                                class="card-img-top"
+                                alt="Calças"
+                            />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Calças</h5>
+                                <p
+                                    class="card-text flex-grow-1"
+                                    style="text-align: left"
+                                >
+                                    Calças termicas de futebol.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto"
+                                    >Comprar</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="estadio" class="container py-3">
+                <div class="row">
+                    <div class="col">
+                        <h4>Estádio</h4>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-4 py-4 align-items-center">
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/54WRWxzuYyE?si=pX7bL9H79B-wr7Yl"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p>
+                            O Estádio António Coimbra da Mota, é um estádio com
+                            muita tradição foi inaugurado no dia 1 de Janeiro de
+                            1939 e capacita 5 mil pessoas sentadas. A Suécia
+                            escolheu este estádio para estagiar para o Euro
+                            2004, e não se deu mal com os ares da Amoreira, pois
+                            atingiu os quartos-de-final da prova, sendo que foi
+                            eliminada pela Holanda nas grandes penalidades.
+                            Recentemente o Estádio recebeu dois jogos da Seleção
+                            Portuguesa de Rugby Union (Ucrânia e Uruguai) sendo
+                            que venceu os 2 jogos. O Estádio recebe anualmente,
+                            a final da Taça de Cascais em Futebol e já recebeu
+                            vários jogos das Seleções Jovens Portuguesas
+                            (Masculinas e Femininas). O Estádio também recebeu
+                            jogos do Campeonato Europeu de Surdos, que se
+                            disputou em Junho de 2007 em Portugal. A Dinamarca
+                            também escolheu este estádio para treinar, aquando
+                            da vitória sobre Portugal no Estádio de Alvalade, na
+                            qualificação para o Mundial de 2010. Anunciado pela
+                            FPF, os últimos três treinos antes da partida de
+                            Portugal para o Mundial da África do Sul, foram
+                            efetuados no António Coimbra da Mota, o primeiro dos
+                            quais, aberto ao público. Em 2014 foi acrescentada
+                            uma bancada de 3 000 lugares de forma a poder
+                            cumprir com as regras impostas pela UEFA para poder
+                            participar nas competições europeias.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog" class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4>Blog dos Históricos Estorilistas</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div
+                        class="accordion"
+                        id="accordionExample"
+                        data-bs-theme="dark"
+                    >
+                        <!-- 1 — José Torres -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne"
+                                    aria-expanded="true"
+                                    aria-controls="collapseOne"
+                                >
+                                    <strong>José Torres</strong>
+                                </button>
+                            </h2>
+
+                            <div
+                                id="collapseOne"
+                                class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <p>
+                                        José Torres, o lendário “Bom Gigante”,
+                                        terminou a sua carreira no Estoril
+                                        Praia, onde rapidamente se tornou uma
+                                        referência pelo seu carácter, humildade
+                                        e paixão pelo jogo. A sua presença
+                                        trouxe respeito e admiração, deixando no
+                                        clube um legado de profissionalismo e
+                                        valores que marcaram gerações.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2 — António Simões -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwo"
+                                >
+                                    <strong>António Simões</strong>
+                                </button>
+                            </h2>
+
+                            <div
+                                id="collapseTwo"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <p>
+                                        António Simões, um dos nomes mais
+                                        respeitados do futebol português, passou
+                                        pelo Estoril numa fase mais madura da
+                                        sua carreira. A sua qualidade técnica e
+                                        experiência deram à equipa uma dimensão
+                                        especial, fazendo dele uma figura
+                                        lembrada com carinho pelos adeptos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3 — Fernando Santos -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                >
+                                    <strong>Fernando Santos</strong>
+                                </button>
+                            </h2>
+
+                            <div
+                                id="collapseThree"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <p>
+                                        Fernando Santos começou a sua caminhada
+                                        no futebol profissional como jogador do
+                                        Estoril Praia, e mais tarde regressou
+                                        como treinador, papel no qual levou o
+                                        clube a momentos inesquecíveis. A sua
+                                        ligação ao Estoril é profunda, sendo
+                                        visto como um símbolo do espírito e
+                                        identidade da Amoreira.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4 — Elói -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour"
+                                    aria-expanded="false"
+                                    aria-controls="collapseFour"
+                                >
+                                    <strong>Elói</strong>
+                                </button>
+                            </h2>
+
+                            <div
+                                id="collapseFour"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <p>
+                                        Elói foi um jogador que marcou o Estoril
+                                        pela dedicação e longevidade. Sempre
+                                        consistente, fiável e comprometido com a
+                                        equipa, tornou-se uma presença
+                                        importante ao longo de várias épocas,
+                                        ganhando o respeito de colegas,
+                                        treinadores e adeptos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 5 — Óscar Duarte -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive"
+                                    aria-expanded="false"
+                                    aria-controls="collapseFive"
+                                >
+                                    <strong>Óscar Duarte</strong>
+                                </button>
+                            </h2>
+
+                            <div
+                                id="collapseFive"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <p>
+                                        Óscar Duarte destacou-se no Estoril pela
+                                        sua entrega, força e espírito
+                                        competitivo. A sua passagem pelo clube
+                                        ficou marcada pelo contributo sólido e
+                                        pela paixão com que representava as
+                                        cores estorilistas, tornando-se uma das
+                                        figuras mais recordadas da época em que
+                                        jogou.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 6 — Diamantino Costa -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix"
+                                    aria-expanded="false"
+                                    aria-controls="collapseSix"
+                                >
+                                    <strong>Diamantino Costa</strong>
+                                </button>
+                            </h2>
+
+                            <div
+                                id="collapseSix"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <p>
+                                        Diamantino Costa trouxe experiência e
+                                        qualidade ao Estoril em momentos
+                                        decisivos. A sua visão de jogo e
+                                        inteligência dentro de campo ajudaram a
+                                        equipa a manter estabilidade
+                                        competitiva, deixando uma marca positiva
+                                        durante o seu período na Amoreira.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contactos" class="container py-4">
+                <div class="row row-contactos align-items-center">
+                    <div class="col">
+                        <h4>Contactos</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Coluna SAD esquerda -->
+                    <div class="col-md-6 coluna-contactos">
+                        <ul class="list-unstyled contactos-lista">
+                            <li class="categoria">SAD</li>
+                            <li>
+                                <strong>Geral</strong><br />
+                                <a href="mailto:geral@estorilpraia.pt"
+                                    >geral@estorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Imprensa e Acreditações</strong><br />
+                                <a href="mailto:comunicacao@estorilpraia.pt"
+                                    >comunicacao@estorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Comercial e Marketing</strong><br />
+                                <a href="mailto:marketing@estorilpraia.pt"
+                                    >marketing@estorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Legal</strong><br />
+                                <a href="mailto:juridico@estorilpraia.pt"
+                                    >juridico@estorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Financeiro</strong><br />
+                                <a href="mailto:contabilidade@estorilpraia.pt"
+                                    >contabilidade@estorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Scouting e Análise</strong><br />
+                                <a href="mailto:scouting@estorilpraia.pt"
+                                    >scouting@estorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Futebol</strong><br />
+                                <a href="mailto:depfutebol@estorilpraia.pt"
+                                    >depfutebol@estorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Segurança</strong><br />
+                                <a href="mailto:security@estorilpraia.pt"
+                                    >security@estorilpraia.pt
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Coluna clube direita -->
+                    <div class="col-md-6 coluna-contactos">
+                        <ul class="list-unstyled contactos-lista">
+                            <li class="categoria">Clube</li>
+
+                            <li>
+                                <strong>Secretaria</strong><br />
+                                <a href="tel:+351214680037">214 680 037</a
+                                ><br />
+                                <a href="mailto:geral@gdestorilpraia.pt"
+                                    >geral@gdestorilpraia.pt</a
+                                ><br />
+                                <a href="mailto:socios@gdestorilpraia.pt"
+                                    >socios@gdestorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Geral</strong><br />
+                                <a href="mailto:geral@gdestorilpraia.pt"
+                                    >geral@gdestorilpraia.pt</a
+                                ><br />
+                                <a href="mailto:socios@gdestorilpraia.pt"
+                                    >socios@gdestorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Imprensa e Acreditações</strong><br />
+                                <a href="mailto:comunicacao@gdestorilpraia.pt"
+                                    >comunicacao@gdestorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Financeiro</strong><br />
+                                <a href="mailto:contabilidade@gdestorilpraia.pt"
+                                    >contabilidade@gdestorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Futebol Masculino</strong><br />
+                                <a href="mailto:prospecao@gdestorilpraia.pt"
+                                    >prospecao@gdestorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Futebol Feminino</strong><br />
+                                <a
+                                    href="mailto:futebolfeminino@gdestorilpraia.pt"
+                                    >futebolfeminino@gdestorilpraia.pt</a
+                                >
+                            </li>
+
+                            <li>
+                                <strong>Escolas de Futebol</strong><br />
+                                <a href="mailto:infoescolas@gdestorilpraia.pt"
+                                    >infoescolas@gdestorilpraia.pt</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <section id="contactos-mapa-form" class="py-4">
+                    <div class="row align-items-start">
+                        <!-- Formulario (esquerda) -->
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <div class="formulario-contacto-container">
+                                <h3>Fale Connosco</h3>
+
+                                <form action="#" method="post" class="mt-3">
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label"
+                                            >Nome</label
+                                        >
+                                        <input
+                                            type="text"
+                                            id="nome"
+                                            name="nome"
+                                            class="form-control"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label"
+                                            >Email</label
+                                        >
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            class="form-control"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="assunto" class="form-label"
+                                            >Assunto</label
+                                        >
+                                        <input
+                                            type="text"
+                                            id="assunto"
+                                            name="assunto"
+                                            class="form-control"
+                                            placeholder="Quando é o assunto?"
+                                        />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="mensagem" class="form-label"
+                                            >Mensagem</label
+                                        >
+                                        <textarea
+                                            id="mensagem"
+                                            name="mensagem"
+                                            rows="4"
+                                            class="form-control"
+                                            required
+                                        ></textarea>
+                                    </div>
+
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary w-100"
+                                    >
+                                        Enviar Mensagem
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Mapa (direita) -->
+                        <div class="col-md-6">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12454.556541481923!2d-9.399883014512383!3d38.703132748257296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec5c53228e605%3A0xa8f698ddd5eaa26c!2sEstoril%20Praia%20Futebol%20SAD!5e0!3m2!1spt-PT!2spt!4v1764085804655!5m2!1spt-PT!2spt"
+                                width="100%"
+                                height="550"
+                                style="border: 0; border-radius: 10px"
+                                allowfullscreen
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="container">
+                    <div class="row h-100">
+                        <div
+                            class="col-3 d-flex justify-content-start align-items-center"
+                        >
+                            <h5>Copyright &copy; 2025</h5>
+                        </div>
+                        <div
+                            class="col d-flex justify-content-end align-items-center"
+                        >
+                            <ul class="list-group list-group-horizontal">
+                                <li class="list-group-item">
+                                    <a
+                                        href="https://www.facebook.com/estorilpraiaSAD/"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-square-facebook"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a
+                                        href="https://www.instagram.com/estorilpraiasad/"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-square-instagram"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a
+                                        href="https://www.youtube.com/c/EstorilPraiaSAD"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-square-youtube"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a
+                                        href="https://x.com/estorilpraiasad"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-square-x-twitter"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a
+                                        href="https://www.tiktok.com/@estorilpraiasad"
+                                        target="_blank"
+                                    >
+                                        <i class="fa-brands fa-tiktok"></i>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a
+                                        href="https://www.linkedin.com/company/estorilpraiasad/"
+                                        target="_blank"
+                                    >
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </main>
+        <a href="#topo" class="btn-top">↑</a>
+    </body>
+</html>

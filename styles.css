@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+header {
+    height: 8rem;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 8rem;
+}
+
+.bg-banner {
+    background-image: url("images/EPbandeira.JPG");
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-banner h4:hover {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 0 0.5rem 0 0.5rem;
+    transition: 1s;
+    filter: drop-shadow(5px 5px 5px yellow);
+    transform: scale(1.4) rotate(5deg);
+    transition: 1.5s;
+}
+
+nav.navbar .navbar-brand img {
+    max-height: 2rem;
+}
+
+body {
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main,
+section {
+    flex-shrink: 0;
+}
+
+main,
+section img {
+    max-width: 100%;
+}
+
+section h4 {
+    background-color: blue;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    transition: 0.5s;
+    margin: 0 0 1rem 0;
+    color: yellow;
+}
+
+header .col-4 h4:hover {
+    transform: scale(1.2) rotate(5deg);
+    transition: 1s;
+}
+
+footer {
+    background-color: blue;
+    height: 3rem;
+}
+
+footer .list-group-item {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+footer .list-group-item a {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: yellow;
+}
+
+footer .list-group-item a:hover {
+    background-color: rgb(48, 65, 255);
+}
+
+footer .col-3 h5 {
+    text-decoration: none;
+    color: yellow;
+}
+
+p {
+    text-align: justify;
+}
+
+main section:hover h4 {
+    background-color: rgb(255, 234, 0);
+    transition: 1s;
+    color: blue;
+    padding-left: 5rem;
+}
+
+section p {
+    font-size: auto;
+    margin: auto;
+}
+
+section .imagem {
+    margin-bottom: 1rem;
+}
+
+section .imagem h5 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+section .imagem img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+#contactos .contactos-lista li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+#contactos .contactos-lista a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+
+#contactos .contactos-lista a:hover {
+    text-decoration: underline;
+}
+
+#contactos .categoria {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+#contactos .nota {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+#contactos .duvidas {
+    font-size: 1rem;
+    color: black;
+}
+
+#formulario-contacto h4 {
+    color: #003366;
+}
+
+#contactos-mapa-form h3 {
+    color: blue;
+}
+
+#formulario-contacto .form-control {
+    border-radius: 8px;
+}
+
+#formulario-contacto button {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+#contactos-mapa-form iframe {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.formulario-borda {
+    border: 2px solid #003366; /* cor da borda */
+    border-radius: 10px; /* cantos arredondados */
+    padding: 20px;
+    background-color: #ffd500; /* cor leve de fundo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* cor letras */
+    margin: 0;
+}
+
+/* botão voltar ao topo */
+.btn-top {
+    position: fixed;
+    bottom: 20px; /* distância do fundo */
+    right: 20px; /* distância da direita */
+    width: 45px;
+    height: 45px;
+    background: blue;
+    color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.btn-top:hover {
+    background: #0056b3;
+}
+
+/* Borda, fundo e padding das colunas */
+.coluna-contactos {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffd608;
+    flex: 1; /* garante largura igual */
+}
+
+/* Lista sem bullets */
+.contactos-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Categoria da lista */
+.contactos-lista .categoria {
+    font-weight: bold;
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.coluna-contactos:first-child {
+    margin-right: 20px; /* cria espaço apenas à direita da primeira coluna */
+}
+
+/* Substitui / ajusta o .formulario-borda */
+.formulario-contacto-container {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffd608;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
