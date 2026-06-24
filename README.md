@@ -41,7 +41,6 @@ Same theme, completely different approach to layout and components.
 
 ## Context
 
-Built as part of my **Web Development (Front-End)** module at **CESAE Digital**.  
 Third project. First time using a CSS framework.
 
 ---
